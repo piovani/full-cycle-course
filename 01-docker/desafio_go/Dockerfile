@@ -7,7 +7,7 @@ COPY main.go .
 
 RUN go build -o service
 
-FROM alpine
+FROM hello-world
 
 WORKDIR /usr/src/app
 
