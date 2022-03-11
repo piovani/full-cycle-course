@@ -1,0 +1,4 @@
+- acesse o nginx acesse a aplicacao em node
+- a aplicacao node irá inserir o dado no banco de dado mysql
+- a aplicacao vai receber o nome
+- a aplicacao irá exibir o nome que foi cadastrado no banco de dados
