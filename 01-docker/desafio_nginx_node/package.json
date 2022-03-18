@@ -1,0 +1,15 @@
+{
+  "name": "desafio_nginx_node",
+  "version": "1.0.0",
+  "description": "- acesse o nginx acesse a aplicacao em node - a aplicacao node irá inserir o dado no banco de dado mysql - a aplicacao vai receber o nome - a aplicacao irá exibir o nome que foi cadastrado no banco de dados",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mysql": "^2.18.1"
+  }
+}
