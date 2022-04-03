@@ -60,4 +60,13 @@ Ticket -> Suporte ao cliente
 
 ## Visão Estratégica
 
-- 
+- Padroes de context Mapping
+    * Partnership -> padrao de parceria
+    * Shared Kernel -> mantem uma biblioteca compartilha entre contextos
+    * Customr-Supplier Development -> cliente fornecedor, onde um fornece e outro consome esse serviço
+    * Conformist -> conformista relação de conformidade
+    * ACL (Anticorrpiption-Layer) -> uma camada de adaptação de interfaces
+    * Open Host Service -> Onde é fornecido um serviço  outro(s) poderam acessar a qualquer momento
+    * Published Language -> onde a linguagem irá determinar o contexto
+    * Separete ways -> separação de vias
+    * Big Ball of Mud -> sistemão onde ele vai lidar com todos os contextos no dia a dia, ou conhecido mo monolito as vezes
