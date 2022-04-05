@@ -36,14 +36,19 @@ no lugar.
 - é necesário instalar o kubectl para funcionar
 - site kubectl: https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/
 - precisamos de nos atentar aos 3 comandos: create, delete e get
-Commands kind
+
+### Commands kind
+
+Criado Cluster
 ```
 kind create cluster
 ```
 
+Informações do cluster
 ```
  kubectl cluster-info --context kind-kind
 ```
+
 
 ```
 
