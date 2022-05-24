@@ -1,0 +1,10 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  - name: goserver
+    labels:
+      app: goserver
+    selector:
+      matchLabels:
+        app: goserver
+    replicas: 10
