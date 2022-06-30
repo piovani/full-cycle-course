@@ -78,3 +78,21 @@ servi basicamente para aplicação de variaveis de ambiente que contem dados sen
 atraves do configMap, é um mapa de configuração onde consegue utilizado de varias forma na aplicação. Na mudança do configMap
 é necessario atualizar o deployment para depois realizar a troca nos pods, 
 
+## HPA -> Horizontal Pod Autoscaler
+Ele faz autoscaler da aplicação monitorando Metric Server, que é as metricas do Service, do serviço, em tempo real, de 
+cada coisa, cada pod está consumindo. É muito comum usar o Prometus para salvar essa metricas em um banco de dados. Depois
+ele gera dashborad dentro do Graphana onde poderá ser monitorado em tempo quase real. Geralmente as conexões entre os 
+pods precisa-se de TLS, para assim o prometus se conecte e colete as informações necessárias.
+
+## Resources
+Dentro da declaração de `resources` temos o `requests` onde ficam os requisitos minimos para o pod rodar, dentro de temos
+`cpu` ele é medido em milicores, 1 core é que vale a 1000m (milicores), ou seja, podemos colocar 0.5 ou 500m em sua 
+declaração, ambos representão a mesma coisa. tambem temos `memory` que é medido em megas, ou seja, 20Mi é que vale a 20
+megas de memoria que será alocado para cada pod. do lado de `requests` temos o `limits`que são os limites que cada pod
+pode usar de recurso no cluster, ele tambem tem `memory` e `cpu`.  
+
+```
+kubectl top pod {{nome_do_pode}}
+```
+mostra como está o consumo do pod
+
