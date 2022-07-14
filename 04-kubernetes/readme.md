@@ -103,7 +103,8 @@ São aplicações sem estado, é feito uma solicitação e é retornadno uma res
 informações
 
 ## Stateful
-Ela tem que manter o dado, se não fizer isso, não tem sentido ela existir
+Ela tem que manter o dado, se não fizer isso, não tem sentido ela existir, é um tipo que muito bem pode salvar o banco 
+de dados.
 
 ## Volumes de persistencia
 Podemos usar um tipo de node especifico para ou podemos usar serviços especificos como aws onde irão guardar o stado
@@ -119,4 +120,15 @@ Sim é semelhante ao volume do docker.
 https://kubernetes.io/docs/concepts/storage/persistent-volumes/
 ```
 
-## 
+Ele possui a capacidade de trabalhar com ordem, ou seja, o ultimo pod criado vai ser o primeiro a ser derrubado, para
+para depois ele subir novamente esses pods
+
+## Ingress
+Acaba se tornando o ponto unico de entrada na aplicação, ele será um service Load Banalce que ele irá ter um IP. Então
+teremos varios serviços passendo parte desse Load Balance, atraves da URL, indenfica-se qual serviço a requisição quer,
+e logicamente a requisição é redirecionada para esse serviço.
+Ele faz um roteamento dos serviço que a requisição quer, lembra-se muito uma API Gatwaty, tambem um proxy reverso, 
+fazedo o papel de ambos.
+Existe um controlador, o Infress Controller do nginx, ficando de baixo dos panos, e sendo controlado atraves das 
+configurações do nginx.
+
