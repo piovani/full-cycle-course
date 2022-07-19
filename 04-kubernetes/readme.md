@@ -132,3 +132,6 @@ fazedo o papel de ambos.
 Existe um controlador, o Infress Controller do nginx, ficando de baixo dos panos, e sendo controlado atraves das 
 configurações do nginx.
 
+## Secret
+São os segredos que pode pega para da o start, ex: váriaveis de ambiente e certificados, essa fonte de secre, pode ser
+um volume, um cofre da service cloud ou ate mesmo um serviço terceiro, que se comunica de de maneira encriptada.
