@@ -48,4 +48,4 @@ requests nem chegarem à aplicação
 apartir disso todas as requests da msm origem irá para o msm pod com a msm versão, isso ajuda na consistencia da aplicação
 tambem tempos outro metodos cmo IP da origem para que todas as maquinas daquela origem acessem o msm pod e assim nao
 havendo divergencias entre elas
-
+- 
