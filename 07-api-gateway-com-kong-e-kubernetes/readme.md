@@ -17,7 +17,6 @@ o ideial é delegar para para um serviço, como o Keyclock
 - temos varios parametros que o k8s reconhece, que deve repassar isso para o serviço do kong
 - Ingress e kongInglres, são configurações de rotas, ou endereços de repasse para um determinado serviço
 - o Load Balance do Kong é mais aplimorado que o do k8s
-- 
 
 
 ## Keyclock
@@ -26,4 +25,10 @@ o ideial é delegar para para um serviço, como o Keyclock
 - temos os usuarios
 - então podemos ter um usuario autenticado para um determinado contexto, mas não para o outro
 - rest limit por usuário -> limit de requests por tempo e por usuário, eveitando ataques de negação de serviço
+
+## APIops
+- é um conceito que aplica os solidos e testados principios de DevOps e GitOps para o ciclo de vida das API's e micrisserviços
+- serve principalmente que gerencie os elementos de maneira automatica e com qualidade nas entregas
+- ciclo:
+<img src="./img/Screenshot 2022-12-07 at 08.47.21.png">
 - 
