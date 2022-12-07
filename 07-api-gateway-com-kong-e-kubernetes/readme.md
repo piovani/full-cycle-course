@@ -18,3 +18,12 @@ o ideial é delegar para para um serviço, como o Keyclock
 - Ingress e kongInglres, são configurações de rotas, ou endereços de repasse para um determinado serviço
 - o Load Balance do Kong é mais aplimorado que o do k8s
 - 
+
+
+## Keyclock
+- temos os helms que são os ambientes
+- temos os flows que são os contextos
+- temos os usuarios
+- então podemos ter um usuario autenticado para um determinado contexto, mas não para o outro
+- rest limit por usuário -> limit de requests por tempo e por usuário, eveitando ataques de negação de serviço
+- 
