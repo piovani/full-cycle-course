@@ -31,4 +31,6 @@ o ideial é delegar para para um serviço, como o Keyclock
 - serve principalmente que gerencie os elementos de maneira automatica e com qualidade nas entregas
 - ciclo:
 <img src="./img/Screenshot 2022-12-07 at 08.47.21.png">
+- existe um contrato a ser seguido, para validar a qualidade do eco sistema
+- Temos ArgoCD que irá monitar o repositorio e irá sincronizar o K8S com adcordo as configurações, previamente feitas
 - 
