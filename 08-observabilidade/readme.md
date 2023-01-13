@@ -15,5 +15,19 @@ que não é
     - Logs - são eventos que são gerados para que fique claro que aconteceu em determinado momento
     - Tracing - é rastreabilidade, o erro de forma isolada não ajuda na maioria das vezes, mas o trajeto que o erro 
     tomou sim pode ajudar
+- repositorio referencia:
+    https://github.com/codeedu/fc2-observabilidade-elastic
+- Usuarios Linux ou Mac
+```
+docker network create observability 
+```
 
-- 
+```
+mkdir elasticsearch_data
+```
+
+```
+sudo chown root beats/metric/metricbeat.yml
+```
+
+
