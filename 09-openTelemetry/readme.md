@@ -32,10 +32,3 @@ normalizadas.
 Para normalizalas, cada aplicação tem um padrão de tracing, metricas, e logs diferente muitas vezes devido a linguagem, 
 mas não só isso o objetivo da aplicação é diferente entre sí, e por isso faz senttido que elas seja diferentes. Tambem
 é necessario termos tracings de blocks internos da aplicação para identifcação.
-
-
-## Projeto Open Telemetry
-
-## Arquitetura
-
-## Demo
